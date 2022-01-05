@@ -1,7 +1,0 @@
-Udaconnect Architecture Design
-
-1. Front end App is connected with Persons and Connections Api.
-2. Persons and Connections Api uses person and connections services and respective database person and conncections database.
-3. Person Api and Person services can be isolated with service to form a microservice, REST Api can be used here.
-4. Connections Api also uses Location api which itself uses location services and its own database.
-5. Location Api is connected to Connections Api which sends location data to connections api. 
